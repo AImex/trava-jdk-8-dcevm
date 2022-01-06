@@ -53,7 +53,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: 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
+    secure: nsBaMDniErlYGBHsL4PRgg
   file_glob: true
   file: openjdk-build/workspace/target/*
   skip_cleanup: true
